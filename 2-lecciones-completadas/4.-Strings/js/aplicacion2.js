@@ -2,22 +2,23 @@
 
 // Propiedad Length: número de caracteres que contiene un texto (Sintaxis: string.length)
 let caracteres = "Bienvenidos al curso de JavaScript Moderno";
-console.log(caracteres.length);
+console.log(caracteres.length); // 42
 
-// MÉTODOS PARA MODIFICAR EL CONTENIDO DE UN STRING
+//  -------- MÉTODOS PARA MODIFICAR EL CONTENIDO DE UN STRING --------
+
 // Método .concat(): concatena cadenas de texto (Sintaxis: string.concat())
-let unir1 = "Hola a todos,";
+let unir1 = "Hola a todos,"; 
 let unir2 = "vamos a comenzar la lección";
-let union = unir1.concat(" ", unir2);
-console.log(union);
+let union = unir1.concat(" ",+ unir+2); 
+console.log(union); // Hola a todos, vamos a comenzar la lección
 
 // Método .repeat(): repite un texto un determinado número de veces (Sintaxis: string.repeat(count))
 let repeticion = "Buenos días! ";
-console.log(repeticion.repeat(5));
+console.log(repeticion.repeat(5)); 
 
 // Método toUpperCase(): Cambia a mayúsculas (Sintaxis: string.toUpperCase())
 let convertirMayusculas = "Bienvenidos al curso de JavaScript Moderno";
-console.log(convertirMayusculas.toUpperCase());
+console.log(convertirMayusculas.toUpperCase()); 
 
 // Método toLowerCase(): Cambia a minúsculas (Sintaxis: string.toLowerCase())
 let convertirMinusculas = "Bienvenidos al curso de JavaScript Moderno";

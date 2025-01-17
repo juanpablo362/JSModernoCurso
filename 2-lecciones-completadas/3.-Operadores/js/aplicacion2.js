@@ -15,18 +15,18 @@ console.log(valor1 * valor2);
 // División
 console.log(valor1/valor2);
 
-// Módulo
+// Módulo (resto de la división)
 console.log(valor1%valor2);
 
 // Exponenciación
 console.log(valor1 ** valor2);
 
-// Operador de Incremento
+// Operador de Incremento 
 let a = 2;
 a++;
 console.log(a);
 
-// Operador de Decremento
+// Operador de Decremento 
 let b = 10;
 b--;
 console.log(b);
